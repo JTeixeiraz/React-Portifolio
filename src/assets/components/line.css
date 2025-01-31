@@ -1,0 +1,11 @@
+#line{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+hr{
+    width: 50%;
+
+}

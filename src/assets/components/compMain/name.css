@@ -1,0 +1,17 @@
+@media (max-width:320px) {
+    #name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+    #name>h1{
+        font-size: 2.7rem;
+        color: #333333;
+    }
+    #name>p{
+        margin-top: 30px;
+        color: #666666;
+    }
+}

@@ -36,9 +36,9 @@
     }
     #check{
         width:30%;
-        border-radius: 99px;
-        border: solid 2px white;
-        margin-top: 350%;
+        border-radius: 200px;
+        border: solid 1px white;
+        margin-top: 100%;
         margin-left: 50%;
     }
     #check:hover{
@@ -61,6 +61,7 @@
     #list{
         font-size: 2rem;
         margin-right: 30px;
+        color: #333333;
     }
 }
 
@@ -70,9 +71,12 @@
     .nome{
         font-size: 1.3rem;
         margin-top: 10px;
+        color: #333333;
     }
 }
-
+.headerlinks{
+    color: #333333 !important;
+}
 
 @media (min-width:760px) {
     #hamb{
