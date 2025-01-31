@@ -1,0 +1,90 @@
+@media (min-width:320px) and (max-width:760px){
+    .informacao{
+        display: none;
+        position: absolute;
+        left: 50%;
+        width: 50%;
+        height: 100vh;
+        background-color: black;
+        padding-top: 30px;
+        -webkit-box-shadow:0px 0px 96px 25px rgba(255,255,255,0.16);
+        -moz-box-shadow: 0px 0px 96px 25px rgba(255,255,255,0.16);
+        box-shadow: 0px 0px 96px 25px rgba(255,255,255,0.16);
+    }
+    .hide{
+        display: block;
+        position: absolute;
+        left: 50%;
+        width: 50%;
+        height: 100vh;
+        background-color: black;
+        padding-top: 30px;
+        -webkit-box-shadow:0px 0px 96px 25px rgba(255,255,255,0.16);
+        -moz-box-shadow: 0px 0px 96px 25px rgba(255,255,255,0.16);
+        box-shadow: 0px 0px 96px 25px rgba(255,255,255,0.16);
+    }
+    .xiz{
+        font-size: 2rem;
+        margin-left: 50%;
+    }
+    .info{
+        line-height: 2;
+    }
+    button{
+        background-color: transparent;
+        color: white;
+    }
+    #check{
+        width:30%;
+        border-radius: 99px;
+        border: solid 2px white;
+        margin-top: 350%;
+        margin-left: 50%;
+    }
+    #check:hover{
+        background-color: white;
+        color: black;
+        transition: 0.8s;
+    }
+    .btnfalecomigo{
+        font-size: 16px;
+        color: white;
+        border-radius: 10px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-family: 'roboto';
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #list{
+        font-size: 2rem;
+        margin-right: 30px;
+    }
+}
+
+
+
+@media (max-width:320px) {
+    .nome{
+        font-size: 1.3rem;
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width:760px) {
+    #hamb{
+        display: none;
+    }
+    .xiz{
+        display: none;
+    }
+}
+
+.dark{
+    background: rgb(165,128,171);
+    background: linear-gradient(90deg, #7ca1c2 0%, #52808b 35%, #bee6e2 100%);
+    color: white;
+}
