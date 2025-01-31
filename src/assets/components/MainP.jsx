@@ -1,5 +1,6 @@
 import Name from "./compMain/Name";
 import SobreMim from "./compMain/SobreMim";
+import Tecnologias from "./compMain/Tecnologias";
 import Line from "./Line";
 
 function MainP(){
@@ -8,6 +9,8 @@ function MainP(){
             <Name />
             <Line />
             <SobreMim />
+            <Line />
+            <Tecnologias />
         </main>
     )
 }

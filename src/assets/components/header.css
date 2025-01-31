@@ -13,7 +13,7 @@
     }
     .hide{
         display: block;
-        position: absolute;
+        position: fixed;
         left: 50%;
         width: 50%;
         height: 100vh;
@@ -61,7 +61,7 @@
     #list{
         font-size: 2rem;
         margin-right: 30px;
-        color: #333333;
+        color: white !important;
     }
 }
 
@@ -71,11 +71,11 @@
     .nome{
         font-size: 1.3rem;
         margin-top: 10px;
-        color: #333333;
+        color: #E0E7FF;
     }
 }
 .headerlinks{
-    color: #333333 !important;
+    color: white !important;
 }
 
 @media (min-width:760px) {
