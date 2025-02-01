@@ -1,27 +1,45 @@
-#contato{
-    text-align: center;
-}
-
-.cardinput{
-    background: rgba(240, 240, 240, 0.3);
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+#Contato{
+    background: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
+    padding: 20px;
 }
 
-.lineinput{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: 60px;
 }
-.lineinput>input{
+.inputform{
+    margin-bottom: 30px;
+}
+.inputform>input{
+    width: 95%;
     background-color: transparent;
-    border: solid 1px;
-    width: 45%;
-    height: 4vh;
-    padding: 5px;
+    border: solid 1px white;
     color: white;
+    border-radius: 4px;
+}
+#txtarea{
+    grid-column: 1/3;
+    width: 98%;
+    background-color: transparent;
     border-radius: 5px;
+}
+.inptsubmt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    grid-column: 1/3;
+}
+
+#submit{
+    width: 50%;
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    height: 40%;
+    border-radius: 10px;
 }
