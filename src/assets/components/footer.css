@@ -1,0 +1,10 @@
+footer{
+    background: rgba(0, 0, 0, 0.5);
+    height: 30vh;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+footer>h2{
+    margin-bottom: 30px;
+}

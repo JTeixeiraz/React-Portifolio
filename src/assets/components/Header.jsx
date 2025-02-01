@@ -20,8 +20,8 @@ function Header(){
             <ul className="info">
                 <i class="bi bi-x xiz" onClick={hamb}></i>
                 <li className="sobre"><a href="#SobreMim" className="headerlinks">Sobre</a></li>
-                <li className="portifolio"><a href="#Portifolio" className="headerlinks">Portifolio</a></li>
-                <li className="contato"><a href="#contato" className="headerlinks btoao"><button className="btnfalecomigo">Fale Comigo</button></a></li>
+                <li className="portifolio"><a href="#tec" className="headerlinks">Portifolio</a></li>
+                <li className="contato"><a href="#Contato" className="headerlinks btoao"><button className="btnfalecomigo">Fale Comigo</button></a></li>
                 <div>
                     <button onclick="darkmode()" className="tema" id="check"><i className="bi bi-moon-fill" id="sol"></i></button>
                 </div>

@@ -15,6 +15,7 @@ function MainP(){
             <Tecnologias />
             <Line />
             <Contato />
+            <Line />
         </main>
     )
 }
