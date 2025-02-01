@@ -1,0 +1,27 @@
+#contato{
+    text-align: center;
+}
+
+.cardinput{
+    background: rgba(240, 240, 240, 0.3);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lineinput{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.lineinput>input{
+    background-color: transparent;
+    border: solid 1px;
+    width: 45%;
+    height: 4vh;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}

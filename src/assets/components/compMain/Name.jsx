@@ -6,7 +6,7 @@ function Name(){
         <div id='name'>
             <h1>JOÃO P.</h1>
             <h1>TEIXEIRA</h1>
-            <p>Desenvolvedor Web</p>
+            <p>Desenvolvedor Front-End</p>
         </div>
     )
 }
