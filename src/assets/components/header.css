@@ -130,9 +130,16 @@
         margin-top: 3.5%;
     }
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .headerlinks{
     color: white !important;
+    scroll-behavior: smooth;
+}
+
+.headerlinks:active{
+    scroll-behavior: smooth;
 }
 
 @media (min-width:760px) {
@@ -172,3 +179,5 @@
     background: linear-gradient(90deg, #7ca1c2 0%, #52808b 35%, #bee6e2 100%);
     color: white;
 }
+
+

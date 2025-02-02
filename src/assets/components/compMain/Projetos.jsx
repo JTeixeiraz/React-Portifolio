@@ -1,25 +1,41 @@
-import { useState } from 'react';
+
 import './projetos.css'
+import { DiReact } from "react-icons/di";
+import { DiNetmagazine } from "react-icons/di";
 function Projetos(){
-    const [abre, setAbre] = useState(false);
-    const Clickado = ()=>{
-        setAbre(!abre);
-    }
+
   
     return(
         <>
             <div id='responsProj'>
-                <button onClick={Clickado} className='saiba'>Saiba Mais*</button>
-                <div className={`mod ${abre ? 'aberto' : ''}`}>
-                    <h1>Saindo do Site!</h1>
-                    <h4>Deseja sair do site e ser direcionado ao GitHub?</h4>
-                    <div className='botoes'>
-                        <a href="https://github.com/JTeixeiraz" className='ir'><button>Ir</button></a>
-                        <button onClick={Clickado}>Voltar</button>
-                    </div>
-                </div>
+                <a href="https://github.com/JTeixeiraz" className='asaiba'><button className='saiba'>Saiba Mais*</button></a>
+                
             </div>
             <div id='Proj'>
+                <div className='cardproj'>
+                    <h1>Projetos</h1>
+                    <div className='softwares'>
+                        <a href="https://primeiro-projeto-react-teixasz-teste.netlify.app/" className='cardsoft'>
+                        <div >
+                            <DiReact className='react'/>
+                            <h3>ToDo List</h3>
+                            <p>projeto feito em ReactJS para simular
+                                uma To Do List em Web.
+                            </p>
+                        </div>
+                        </a>
+                        <a href="https://github.com/JTeixeiraz/CalculadoraSimplesCSharp" className='cardsoft'>
+                        <div >
+                            <DiNetmagazine  className='csharp'/>
+                            <h3>Calculadora</h3>
+                            <p>Projeto simples feito em P.O.O para realizar
+                                uma calculadora basica.
+                            </p>
+                        </div>
+                        </a>
+                    </div>
+                    <a href="https://github.com/JTeixeiraz" className='asaiba'><button className='saibamais'>Saiba Mais</button></a>
+                </div>
             </div>
         </>
     );

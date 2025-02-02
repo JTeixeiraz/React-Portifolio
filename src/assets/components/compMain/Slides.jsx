@@ -4,6 +4,7 @@ import { DiReact } from "react-icons/di";
 import { DiJsBadge } from "react-icons/di";
 import { DiMysql } from "react-icons/di";
 import { DiGit } from "react-icons/di";
+import { BsFiletypeCs } from "react-icons/bs";
 import { DiCode } from "react-icons/di";
 function Slide() {
     const [flipped, setFlipped] = useState(false);
@@ -35,7 +36,12 @@ function Slide() {
     const codethanFlip = () => {
       setcodeFlip(!codeflip);
     };
-
+    //6
+    const [csflip, setcsFlip] = useState(false);
+  
+    const csthanFlip = () => {
+      setcsFlip(!csflip);
+    };
     return (
         <div id='Portifolio'>
     <div id='containercard'>
@@ -109,6 +115,21 @@ function Slide() {
           </div>
         </div>
       </div>
+
+      <div  id='html' className={`card ultimo ${csflip ? 'flipped' : ''}`} onClick={csthanFlip}>
+        <div className='card-inner'>
+          <div className='card-front'>
+          <BsFiletypeCs className='cs'/>
+            <h1>C#</h1>
+          </div>
+          <div className='card-back'>
+            Tendo alguns projetos utilizando C#, formei toda minha logica de programação
+            nessa linguagem, sendo a linguagem de programação BackEnd que possuo maior
+            conhecimento e experiência.
+          </div>
+        </div>
+      </div>
+
       </div>
     </div>
 

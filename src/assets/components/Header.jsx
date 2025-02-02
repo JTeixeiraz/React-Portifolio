@@ -10,7 +10,7 @@ function Header(){
     return(
         <header id="headergeral">
         <ul className="name">
-            <li className="nome"><a href="#" className="headerlinks">J.Teixeira</a></li>
+            <li className="nome"><a href="#name" className="headerlinks">J.Teixeira</a></li>
         </ul>
         
         <div id='hamb'>
