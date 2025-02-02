@@ -48,8 +48,8 @@
         border-radius: 5px;
         color: white !important;
         -webkit-box-shadow:0px 0px 61px 0px rgba(255,255,255,0.2);
--moz-box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
-box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
+        -moz-box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
+        box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
         
     }
     .card-back {
@@ -59,9 +59,7 @@ box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
         color: white !important;
         font-size: 0.8rem;
         padding: 5px;
-        -webkit-box-shadow:0px 0px 61px 0px rgba(255,255,255,0.2);
--moz-box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
-box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
+        
         font-weight: bold;
     }
     .card-front, .card-back {
@@ -948,7 +946,32 @@ box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
         margin-bottom: 10px;
     }
 }
+.card-front{
+    transition: 0.6s;
+    -webkit-box-shadow:0px 0px 12px 4px rgba(245,245,245,0.3);
+-moz-box-shadow: 0px 0px 12px 4px rgba(245,245,245,0.3);
+box-shadow: 0px 0px 12px 4px rgba(245,245,245,0.3);
+}
+.card-front:hover{
+    transition: 0.6s;
+    -webkit-box-shadow:0px 0px 61px 0px rgba(255,255,255,0.2);
+-moz-box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
+box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
+}
 
+.card-back{
+    transition: 0.6s;
+    -webkit-box-shadow:0px 0px 12px 4px rgba(245,245,245,0.3);
+    -moz-box-shadow: 0px 0px 12px 4px rgba(245,245,245,0.3);
+    box-shadow: 0px 0px 12px 4px rgba(245,245,245,0.3);
+}
+
+.card-back:hover{
+    transition: 0.6s;
+    -webkit-box-shadow:0px 0px 61px 0px rgba(255,255,255,0.2);
+    -moz-box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
+    box-shadow: 0px 0px 61px 0px rgba(255,255,255,0.2);
+}
 .card{
     transition: transform 0.3s ease; /* Transição adicionada */
     transition: 0.6s;

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './contato.css';
+import emailjs from 'emailjs-com'
 function Contato(){
 
         const [tel, setTel] = useState('')
@@ -23,6 +24,18 @@ function Contato(){
             setTel(numeroFormatado);
         }
 
+
+        function sendEmail(e){
+            e.preventDefault();
+            emailjs.sendForm('service_kgsnl1q', 'template_pn88mtw', e.target, 'QGFlDmi1m974RfoVW')
+      .then((result) => {
+          window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+      }, (error) => {
+          console.log(error.text);
+      });
+        }
+
+
     return(
       <div id='Contato'> 
       <div>
@@ -31,17 +44,19 @@ function Contato(){
         (31)98770-5732</p>
     </div>
         <div className='contatoContent'>
-            <form action="" className='formulario'>
+            <form action="" className='formulario' onSubmit={sendEmail}>
                 <div className='inputform nameinpt'>
                     <label htmlFor="">Nome</label>
                     <input 
                         type="text" 
+                        name='from_name'
                     />
                 </div>
                 <div className='inputform sobrenome'>
                     <label htmlFor="">Sobrenome</label>
                     <input 
                         type="text" 
+                        name='from_sobrename'
                     />
                 </div>
                 <div className='inputform mail'>
@@ -49,6 +64,7 @@ function Contato(){
                     <input 
                         type="email" 
                         placeholder='exemplo@gmail.com'
+                        name='from_email'
                     />
                 </div>
                 <div className='inputform tell'>
@@ -59,10 +75,11 @@ function Contato(){
                         type="tell" 
                         placeholder='+55 (xx)xxxx-xxxx' 
                         id='tell'
+                        name='contact_number'
                     />
                 </div>
                 <textarea 
-                    name="mensagem" 
+                    name="message" 
                     id="txtarea" 
                     placeholder='Deixe sua mensagem...'
                 ></textarea>
@@ -70,6 +87,7 @@ function Contato(){
                 <input 
                     type="submit" 
                     name="" 
+                    value='Send'
                     id="submit" 
                 />
                 </div>
