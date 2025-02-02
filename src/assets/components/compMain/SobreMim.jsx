@@ -5,7 +5,7 @@ function SobreMim(){
     return(
         <div id="SobreMim">
             <div className="cardbox">
-                <h1>Sobre Mim</h1>
+                <h1 id='about'>Sobre Mim</h1>
                 <div className="content">
                     <img src={foto} alt="foto" className='joao'/>
                 </div>

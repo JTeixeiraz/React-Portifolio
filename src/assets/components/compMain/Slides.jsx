@@ -96,7 +96,7 @@ function Slide() {
         </div>
       </div>
 
-      <div className={`card ${codeflip ? 'flipped' : ''}`} onClick={codethanFlip}>
+      <div  id='html' className={`card ultimo ${codeflip ? 'flipped' : ''}`} onClick={codethanFlip}>
         <div className='card-inner'>
           <div className='card-front'>
           <DiCode className='code'/>
@@ -109,9 +109,9 @@ function Slide() {
           </div>
         </div>
       </div>
+      </div>
+    </div>
 
-    </div>
-    </div>
     );
   }
   

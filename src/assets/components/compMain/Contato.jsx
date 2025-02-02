@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './contato.css';
-
 function Contato(){
 
         const [tel, setTel] = useState('')
@@ -26,9 +25,11 @@ function Contato(){
 
     return(
       <div id='Contato'> 
+      <div>
         <h1>Contato</h1>
         <p>joaopedroteixeirareis@gmail.com <br /> 
         (31)98770-5732</p>
+    </div>
         <div className='contatoContent'>
             <form action="" className='formulario'>
                 <div className='inputform nameinpt'>

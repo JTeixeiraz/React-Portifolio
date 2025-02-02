@@ -23,7 +23,7 @@ function Header(){
                 <li className="portifolio"><a href="#tec" className="headerlinks">Portifolio</a></li>
                 <li className="contato"><a href="#Contato" className="headerlinks btoao"><button className="btnfalecomigo">Fale Comigo</button></a></li>
                 <div>
-                    <button onclick="darkmode()" className="tema" id="check"><i className="bi bi-moon-fill" id="sol"></i></button>
+                    <i className="bi bi-moon-fill" id="sol"></i>
                 </div>
             </ul>
         </div>  

@@ -1,45 +1,374 @@
-#Contato{
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    padding: 20px;
+@media (min-width:1440px) {
+    #Contato{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-top: 60px;
+    }
+    .inputform{
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 5px;
+    }
+    .inputform>input{
+        width: 100%;
+        height: 90%;
+        background-color: transparent;
+        border: solid 1px rgba(255, 255, 255, 0.5);
+        color: white;
+        border-radius: 4px;
+        padding: 7px;
+    }
+    #txtarea{
+        grid-column: 1/3;
+        width: 100%;
+        background-color: transparent;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .inptsubmt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        grid-column: 1/3;
+    }
+    
+    #submit{
+        width: 50%;
+        background-color: rgba( 255, 255, 255, 0.05);
+        color: white;
+        border: solid 1px white;
+        height: 60%;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:1440px) {
+    #Contato{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-top: 60px;
+    }
+    .inputform{
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 5px;
+    }
+    .inputform>input{
+        width: 100%;
+        height: 90%;
+        background-color: transparent;
+        border: solid 1px rgba(255, 255, 255, 0.5);
+        color: white;
+        border-radius: 4px;
+        padding: 7px;
+    }
+    #txtarea{
+        grid-column: 1/3;
+        width: 100%;
+        background-color: transparent;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .inptsubmt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        grid-column: 1/3;
+    }
+    
+    #submit{
+        width: 50%;
+        background-color: rgba( 255, 255, 255, 0.05);
+        color: white;
+        border: solid 1px white;
+        height: 60%;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:1024px) {
+    #Contato{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-top: 60px;
+    }
+    .inputform{
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 5px;
+    }
+    .inputform>input{
+        width: 100%;
+        height: 90%;
+        background-color: transparent;
+        border: solid 1px rgba(255, 255, 255, 0.5);
+        color: white;
+        border-radius: 4px;
+        padding: 7px;
+    }
+    #txtarea{
+        grid-column: 1/3;
+        width: 100%;
+        background-color: transparent;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .inptsubmt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        grid-column: 1/3;
+    }
+    
+    #submit{
+        width: 50%;
+        background-color: rgba( 255, 255, 255, 0.05);
+        color: white;
+        border: solid 1px white;
+        height: 60%;
+        border-radius: 10px;
+    }
 }
 
 
-.formulario{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin-top: 60px;
-}
-.inputform{
-    margin-bottom: 30px;
-}
-.inputform>input{
-    width: 95%;
-    background-color: transparent;
-    border: solid 1px white;
-    color: white;
-    border-radius: 4px;
-}
-#txtarea{
-    grid-column: 1/3;
-    width: 98%;
-    background-color: transparent;
-    border-radius: 5px;
-}
-.inptsubmt{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    grid-column: 1/3;
+@media (max-width: 320px) {
+    #Contato{
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-top: 60px;
+    }
+    .inputform{
+        margin-bottom: 30px;
+    }
+    .inputform>input{
+        width: 95%;
+        height: 70%;
+        background-color: transparent;
+        border: solid 1px rgba(255, 255, 255, 0.8);
+        color: white;
+        border-radius: 4px;
+    }
+    #txtarea{
+        grid-column: 1/3;
+        width: 98%;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    .inptsubmt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        grid-column: 1/3;
+    }
+    
+    #submit{
+        width: 50%;
+        background-color: transparent;
+        color: white;
+        border: solid 1px white;
+        height: 40%;
+        border-radius: 10px;
+    }
 }
 
-#submit{
-    width: 50%;
-    background-color: transparent;
-    color: white;
-    border: solid 1px white;
-    height: 40%;
-    border-radius: 10px;
+@media (max-width: 375px) {
+    #Contato{
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-top: 60px;
+    }
+    .inputform{
+        margin-bottom: 30px;
+    }
+    .inputform>input{
+        width: 95%;
+        height: 70%;
+        background-color: transparent;
+        border: solid 1px rgba(255, 255, 255, 0.8);
+        color: white;
+        border-radius: 4px;
+    }
+    #txtarea{
+        grid-column: 1/3;
+        width: 98%;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    .inptsubmt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        grid-column: 1/3;
+    }
+    
+    #submit{
+        width: 50%;
+        background-color: transparent;
+        color: white;
+        border: solid 1px white;
+        height: 40%;
+        border-radius: 10px;
+    }
 }
+
+@media (max-width: 425px) {
+    #Contato{
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-top: 60px;
+    }
+    .inputform{
+        margin-bottom: 30px;
+    }
+    .inputform>input{
+        width: 95%;
+        height: 70%;
+        background-color: transparent;
+        border: solid 1px rgba(255, 255, 255, 0.8);
+        color: white;
+        border-radius: 4px;
+    }
+    #txtarea{
+        grid-column: 1/3;
+        width: 98%;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    .inptsubmt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        grid-column: 1/3;
+    }
+    
+    #submit{
+        width: 50%;
+        background-color: transparent;
+        color: white;
+        border: solid 1px white;
+        height: 40%;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #Contato{
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-top: 60px;
+    }
+    .inputform{
+        margin-bottom: 30px;
+    }
+    .inputform>input{
+        width: 95%;
+        height: 70%;
+        background-color: transparent;
+        border: solid 1px rgba(255, 255, 255, 0.8);
+        color: white;
+        border-radius: 4px;
+    }
+    #txtarea{
+        grid-column: 1/3;
+        width: 98%;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    .inptsubmt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        grid-column: 1/3;
+    }
+    
+    #submit{
+        width: 50%;
+        background-color: transparent;
+        color: white;
+        border: solid 1px white;
+        height: 40%;
+        border-radius: 10px;
+    }
+}
+
+    
+
+
+
+
+

@@ -1,3 +1,110 @@
+@media (min-width:1440px){
+    .joao{
+        width:300px;
+        height: 520px;
+        border-radius: 50px;
+        margin: 30px;
+    }
+    
+    .cardbox{
+        display: grid;
+
+        grid-template-columns:  1fr;
+        grid-template-rows: 1fr;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin: 30px;
+    }
+    #about{
+        grid-column: 1/3;
+        text-align: center;
+    }
+    
+    .cardbox>h1{
+        color: white;
+    }
+    .cardbox>p{
+        color: white;
+        text-align: left;
+        padding: 30px;
+        font-size: 1.6rem;
+    }
+}
+@media (max-width:1440px){
+    .joao{
+        width:300px;
+        height: 520px;
+        border-radius: 50px;
+        margin: 30px;
+    }
+    
+    .cardbox{
+        display: grid;
+
+        grid-template-columns:  1fr;
+        grid-template-rows: 1fr;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin: 30px;
+    }
+    #about{
+        grid-column: 1/3;
+        text-align: center;
+    }
+    
+    .cardbox>h1{
+        color: white;
+    }
+    .cardbox>p{
+        color: white;
+        text-align: left;
+        padding: 30px;
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 1024px){
+    .joao{
+        width:300px;
+        height: 520px;
+        border-radius: 50px;
+        margin: 30px;
+    }
+    
+    .cardbox{
+        display: grid;
+
+        grid-template-columns:  1fr;
+        grid-template-rows: 1fr;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+    #about{
+        grid-column: 1/3;
+        text-align: center;
+    }
+    #SobreMim{
+        padding: 5px;
+    }
+    
+    .cardbox>h1{
+        color: white;
+    }
+    .cardbox>p{
+        color: white;
+        text-align: left;
+        padding: 30px;
+        font-size: 1.3rem;
+    }
+}
+
 @media (max-width:320px) {
     .joao{
         width: 250px;
@@ -27,3 +134,103 @@
         padding: 30px;
     }
 }
+
+@media (max-width:375px) {
+    .joao{
+        width:300px;
+        height: 520px;
+        border-radius: 50px;
+        margin: 30px;
+    }
+    
+    .cardbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+    #SobreMim{
+        padding: 5px;
+    }
+    
+    .cardbox>h1{
+        color: white;
+    }
+    .cardbox>p{
+        color: white;
+        text-align: left;
+        padding: 30px;
+    }
+}
+
+@media (max-width:425px) {
+    .joao{
+        width:300px;
+        height: 520px;
+        border-radius: 50px;
+        margin: 30px;
+    }
+    
+    .cardbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+    #SobreMim{
+        padding: 5px;
+    }
+    
+    .cardbox>h1{
+        color: white;
+    }
+    .cardbox>p{
+        color: white;
+        text-align: left;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .joao{
+        width:300px;
+        height: 520px;
+        border-radius: 50px;
+        margin: 30px;
+    }
+    
+    .cardbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+    #SobreMim{
+        padding: 5px;
+    }
+    
+    .cardbox>h1{
+        color: white;
+    }
+    .cardbox>p{
+        color: white;
+        text-align: left;
+        padding: 30px;
+    }
+}
+
