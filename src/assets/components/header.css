@@ -1,3 +1,6 @@
+
+
+
 /*
 @media (max-width:768px) {
     .nome{
@@ -133,14 +136,7 @@
 html{
     scroll-behavior: smooth;
 }
-.headerlinks{
-    color: white !important;
-    scroll-behavior: smooth;
-}
 
-.headerlinks:active{
-    scroll-behavior: smooth;
-}
 
 @media (min-width:760px) {
     #hamb{
@@ -176,8 +172,23 @@ html{
 }
 .dark{
     background: rgb(165,128,171);
-    background: linear-gradient(90deg, #7ca1c2 0%, #52808b 35%, #bee6e2 100%);
-    color: white;
+    background: linear-gradient(90deg,  #ffffff 50%, #dddddd 100%);
 }
 
+.darklinks{
+    color: black !important;
+    border-color: black;
+}
+
+.darktitulo{
+    color: black !important;
+}
+
+.darkinput{
+    border: solid 1px black !important;
+    color: black !important;
+}
+.darkinput:focus{
+    border: solid 1px black !important;
+}
 

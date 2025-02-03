@@ -13,7 +13,7 @@ function Projetos(){
             </div>
             <div id='Proj'>
                 <div className='cardproj'>
-                    <h1>Projetos</h1>
+                    <h1 className='projetoscardproj'>Projetos</h1>
                     <div className='softwares'>
                         <a href="https://primeiro-projeto-react-teixasz-teste.netlify.app/" className='cardsoft'>
                         <div >
