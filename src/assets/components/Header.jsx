@@ -20,7 +20,11 @@ function Header(){
         var h3 = document.querySelectorAll('h3')
         var label = document.querySelectorAll('label')
         var back = document.querySelectorAll('.card-back')
+        var hideh = document.querySelector('.hide')
+        var listhamb = document.querySelector('.bi-list')
 
+        listhamb.classList.toggle('.hamblight')
+        hideh.classList.toggle('hidelight')
         botao.classList.toggle('darklinks')
         h.classList.toggle('blackHeader');
         elemento.classList.toggle('dark');
