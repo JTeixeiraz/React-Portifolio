@@ -2,9 +2,10 @@ import { useState } from 'react';
 import './header.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 function Header(){
+    let ligado = false;
     const [esconde, setEsconde] = useState(true);
     const hamb = ()=>{
-        setEsconde(!esconde);
+        setEsconde(!esconde); 
     };
     const check = document.querySelector('#sol');
     const darkmode = ()=>{
@@ -20,11 +21,9 @@ function Header(){
         var h3 = document.querySelectorAll('h3')
         var label = document.querySelectorAll('label')
         var back = document.querySelectorAll('.card-back')
-        var hideh = document.querySelector('.hide')
-        var listhamb = document.querySelector('.bi-list')
+        var hamburguerli = document.getElementById('list')
 
-        listhamb.classList.toggle('.hamblight')
-        hideh.classList.toggle('hidelight')
+        hamburguerli.classList.toggle('darktitulo')
         botao.classList.toggle('darklinks')
         h.classList.toggle('blackHeader');
         elemento.classList.toggle('dark');
@@ -54,7 +53,10 @@ function Header(){
         a.forEach((a) =>{
             a.classList.toggle('darklinks')
         });
+        ligado = true;
     };
+
+ 
     return(
         <header id="headergeral">
         <ul className="name">

@@ -176,12 +176,12 @@ html{
 }
 
 .darklinks{
-    color: black !important;
+    color: rgb(82, 77, 77) !important;
     border-color: black;
 }
 
 .darktitulo{
-    color: black !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .darkinput{
